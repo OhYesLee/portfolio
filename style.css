@@ -5,7 +5,7 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
+  --color-dark: #263238;
   --color-dark-pink: #ff6863;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
@@ -110,7 +110,7 @@ p {
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark);
   padding: 8px;
 }
 
@@ -219,7 +219,7 @@ p {
 }
 
 .major__icon:hover i {
-  color: var(--color-pink);
+  color: var(--color-dark);
   transform: rotate(-30deg) scale(1.1);
 }
 
@@ -240,6 +240,12 @@ p {
 .job img {
   width: 50px;
   height: 50px;
+}
+
+.job img.job__logo-dreamcoding {
+  width: 40px;
+  height: 40px;
+  margin: 0px 5px;
 }
 
 .job__description {
@@ -283,7 +289,7 @@ p {
 }
 
 .skill {
-  margin-bottom: 32px;
+  margin: 30px 0px 30px 0px;
 }
 
 .skill__description {
@@ -330,7 +336,7 @@ p {
 
 .category__btn.selected,
 .category__btn:hover {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark);
   color: var(--color-white);
 }
 
@@ -463,12 +469,12 @@ p {
 }
 
 .testimonial__speach-bubble a {
-  color: var(--color-pink);
+  color: var(--color-dark);
 }
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark);
 }
 
 .contact__title,
@@ -504,7 +510,7 @@ p {
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-pink);
+  background-color: var(--color-dark);
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
@@ -537,7 +543,7 @@ p {
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-pink);
+    background-color: var(--color-dark);
   }
 
   #navbar.navbar--dark {
